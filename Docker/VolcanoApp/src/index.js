@@ -97,4 +97,4 @@ app.post('/volcans', async (req, res) => {
   }
 });
 
-app.listen(process.env.PORT, () => console.log('Servidor iniciat...'))
+app.listen(process.env.PORT, () => console.log('Servidor iniciat al port: ', process.env.PORT));
